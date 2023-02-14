@@ -1,0 +1,8 @@
+<!-- Add diffuse noise OK -->
+		<diffuse name="noise_extra" size="100 100 100">
+			<plugins>
+				<!-- <sndfile name="/home/pierreguiraud/OneDrive_Imperial/Documents_work/VSC_Linux/EloSpheres/ML_dataset/Original_signals/Noise_extracts/CROWD_BAR_10s_0.wav"  -->
+				<sndfile name={noise_file}
+						 loop="6" level={noise_level}/>
+			</plugins>
+		</diffuse>

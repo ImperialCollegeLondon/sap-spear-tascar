@@ -1,0 +1,5 @@
+<!-- HRTF receiver -->
+	<receiver name={receiver_name} type="hrtf">
+			<position    importcsv={receiver_pos}/>
+			<orientation importcsv={receiver_ori}/>
+		</receiver>

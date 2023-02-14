@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<!-- name="SPEAR_Challenge" -->
+<session attribution="Pierre Guiraud" loop="false" duration="60" playonload="true">
+
+
+<!-- Scenes with direct sound, early reflections and late reverb -->
+	<!-- Only the speakers -->
+	<scene name="Scene_full_sourceAll" guiscale="8" ismorder="1">
+
+		<!-- Sources -->
+		{source_all}
+
+		{table}
+
+		{room}
+
+		{reverb}
+
+		{receiver}
+
+	</scene>
+
+	<!-- Only the loudspeakers -->
+	<scene name="Scene_full_sourceLs" guiscale="8" ismorder="1">
+
+		{noise}
+
+		{table}
+
+		{room}
+
+		{reverb}
+
+		{receiver}
+
+	</scene>
+
+	<!-- Only the speakers -->
+	<scene name="Scene_full_sourceID3" guiscale="8" ismorder="1">
+
+		<!-- Sources -->
+		{source_id3}
+
+		{table}
+
+		{room}
+
+		{reverb}
+
+		{receiver}
+
+	</scene>
+
+	<!-- Only the speakers -->
+	<scene name="Scene_full_sourceID4" guiscale="8" ismorder="1">
+
+		<!-- Sources -->
+		{source_id4}
+
+		{table}
+
+		{room}
+
+		{reverb}
+
+		{receiver}
+
+	</scene>
+
+	<!-- Only the speakers -->
+	<scene name="Scene_full_sourceID5" guiscale="8" ismorder="1">
+
+		<!-- Sources -->
+		{source_id5}
+
+		{table}
+
+		{room}
+
+		{reverb}
+
+		{receiver}
+
+	</scene>
+
+	<!-- Only the speakers -->
+	<scene name="Scene_full_sourceID6" guiscale="8" ismorder="1">
+
+		<!-- Sources -->
+		{source_id6}
+
+		{table}
+
+		{room}
+
+		{reverb}
+
+		{receiver}
+
+	</scene>
+
+	<!-- Only the speakers -->
+	<scene name="Scene_full_sourceID7" guiscale="8" ismorder="1">
+
+		<!-- Sources -->
+		{source_id7}
+
+		{table}
+
+		{room}
+
+		{reverb}
+
+		{receiver}
+
+	</scene>
+	
+
+<!-- Reference scenes for each individual ID with direct sound only (anechoic case) -->
+	<scene name="Scene_ref_sourceID3" guiscale="8" ismorder="0">
+
+		<!-- Sources -->
+		{source_id3}
+
+		{receiver}
+
+	</scene>
+
+	<scene name="Scene_ref_sourceID4" guiscale="8" ismorder="0">
+
+		<!-- Sources -->
+		{source_id4}
+
+		{receiver}
+
+	</scene>
+
+	<scene name="Scene_ref_sourceID5" guiscale="8" ismorder="0">
+
+		<!-- Sources -->
+		{source_id5}
+
+		{receiver}
+
+	</scene>
+
+	<scene name="Scene_ref_sourceID6" guiscale="8" ismorder="0">
+
+		<!-- Sources -->
+		{source_id6}
+
+		{receiver}
+
+	</scene>
+	
+	<scene name="Scene_ref_sourceID7" guiscale="8" ismorder="0">
+
+		<!-- Sources -->
+		{source_id7}
+
+		{receiver}
+
+	</scene>
+
+</session>
+
+<!-- TASCAR Template used for python to generate the desired scenes with various options for the SPEAR Challenge
+-->

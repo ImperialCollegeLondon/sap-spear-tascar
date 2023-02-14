@@ -1,0 +1,12 @@
+<!-- Headworn array. Here with z vertical axis and +y in the front.
+		Values in m taken from presentation 202011124_wp1_update -->
+		<receiver name={receiver_name} type="micarray">
+			<position    importcsv={receiver_pos}/>
+			<orientation importcsv={receiver_ori}/>
+			<mic delay="freefield" position="0 0 0">
+				<mic position="-0.029  0.082 -0.005"/>
+				<mic position=" 0.030 -0.001 -0.001"/>
+				<mic position=" 0.011 -0.077 -0.002"/>
+				<mic position="-0.060 -0.083 -0.005"/>
+			</mic>
+		</receiver>

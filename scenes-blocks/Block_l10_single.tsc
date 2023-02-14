@@ -1,0 +1,10 @@
+<!-- Add 10 randomly distributed loudspeakers individually-->
+		<source name="ls_{ls_num}">
+			<sound name="loudspeaker_{ls_num}" x={ls_x} y={ls_y} z={ls_z}>
+				<plugins>
+					<sndfile name={noise_file}
+							 loop="1" levelmode="calib" level={noise_level} resample="true"/>
+				</plugins>
+			</sound>
+		</source>
+

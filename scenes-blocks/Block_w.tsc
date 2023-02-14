@@ -1,0 +1,5 @@
+<!-- Add walls of a room OK -->
+		<facegroup name="Naked Room" reflectivity="1" damping="0" scattering="0" shoebox="{room_x} {room_y} {room_z}">
+			<position> 0 {center_x} {center_y} {center_z} </position>
+		</facegroup>
+		

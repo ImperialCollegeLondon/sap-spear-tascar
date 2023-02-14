@@ -1,0 +1,12 @@
+<source name={source_name}>
+			<position    importcsv={source_pos}/>
+			<orientation importcsv={source_ori}/>
+			<sound type="cardioidmod">
+				<plugins>
+					<sndfile name={source_audio} 
+							loop="0" levelmode="calib" level={source_level} resample="true"/>
+				</plugins>
+			</sound>
+		</source>
+
+		

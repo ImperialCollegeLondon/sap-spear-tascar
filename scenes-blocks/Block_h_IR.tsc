@@ -1,0 +1,2 @@
+<!-- HRTF receiver -->
+	<receiver name="hrtf" type="hrtf" delaycomp="0.005"/>

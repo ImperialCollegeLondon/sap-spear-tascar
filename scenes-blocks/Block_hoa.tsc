@@ -1,0 +1,5 @@
+<!-- HOA signal to then be used with the ATF of the mic array -->
+		<receiver name={receiver_name} order="{hoa_order}" type="hoa3d_enc" >
+			<position    importcsv={receiver_pos}/>
+			<orientation importcsv={receiver_ori}/>
+		</receiver>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- name="SPEAR_Challenge" -->
+<session attribution="Pierre Guiraud" loop="false" duration="60" playonload="true">
+
+
+<!-- Scenes with direct sound, early reflections and late reverb -->
+	<scene name="Scene_full_ism1" guiscale="8" ismorder="1" guicenter="{center_x} {center_y} {center_z}" >
+
+		<!-- Sources -->
+		{source_all}
+
+		{noise}
+
+		{table}
+
+		{room}
+
+		{reverb}
+
+		{receiver}
+
+	</scene>
+
+	<scene name="Scene_full_ism0" guiscale="8" ismorder="0" guicenter="{center_x} {center_y} {center_z}" >
+
+		<!-- Sources -->
+		{source_all}
+
+		{noise}
+
+		{table}
+
+		{room}
+
+		{reverb}
+
+		{receiver}
+
+	</scene>
+
+
+	<connect src="render.Scene_full_ism1:HRTF_l" dest="system:playback_1" />
+	<connect src="render.Scene_full_ism1:HRTF_r" dest="system:playback_2" />
+
+	<connect src="render.Scene_full_ism0:HRTF_l" dest="system:playback_1" />
+	<connect src="render.Scene_full_ism0:HRTF_r" dest="system:playback_2" />
+
+</session>
+
+<!-- TASCAR Template used for python to generate the desired scenes with various options for the SPEAR Challenge
+-->

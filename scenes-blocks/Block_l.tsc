@@ -1,0 +1,8 @@
+<!-- Add 10 randomly distributed loudspeakers OK -->
+		<source name="loudspeakers">
+			<position>0 {center_x} {center_y} 0</position>
+
+			{loudspeakers}
+
+		</source>
+		

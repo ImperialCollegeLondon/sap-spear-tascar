@@ -1,0 +1,4 @@
+<!-- Reverb OK -->
+		<reverb name="reverb" type="simplefdn" absorption={absorption} damping={damping} volumetric="{room_x} {room_y} {room_z}" image="False" fixcirculantmat="True">
+			<position> 0 {center_x} {center_y} {center_z}</position>
+		</reverb>
